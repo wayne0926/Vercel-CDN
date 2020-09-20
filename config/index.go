@@ -26,11 +26,11 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: vercel.example.com
-  proxy: example.com
+  self: artalk-mini.cyfan.top
+  proxy: artalk.cyfan.top
 replaced_urls:
-  - old: example.com
-    new: vercel.example.com
+  - old: artalk.cyfan.top
+    new: artalk-mini.cyfan.top
 `
 var Config *Yaml
 var Protocal string
