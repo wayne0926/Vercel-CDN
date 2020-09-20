@@ -26,8 +26,8 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: example.com
-  proxy: host.example.com
+  self: host.example.com
+  proxy: example.com
 replaced_urls:
   - old: example.com
     new: host.example.com
