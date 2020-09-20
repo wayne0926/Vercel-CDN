@@ -26,11 +26,11 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: example.com
-  proxy: host.example.com
+  self: wiki.cyfan.tk
+  proxy: zh.wikipedia.org
 replaced_urls:
-  - old: example.com
-    new: host.example.com
+  - old: zh.wikipedia.org
+    new: wiki.cyfan.tk
 `
 var Config *Yaml
 var Protocal string
