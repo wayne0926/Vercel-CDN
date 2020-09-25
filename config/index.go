@@ -26,11 +26,11 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: wiki.wr0926.ml
-  proxy: weiji.wr0926.ml
+  self: fonts.wr0926.ml
+  proxy: fontss.wr0926.ml
 replaced_urls:
-  - old: weiji.wr0926.ml
-    new: wiki.wr0926.ml
+  - old: fontss.wr0926.ml
+    new: fonts.wr0926.ml
 `
 var Config *Yaml
 var Protocal string
