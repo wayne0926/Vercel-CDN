@@ -26,11 +26,11 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: host.example.com
-  proxy: example.com
+  self: cloud.wr0926.ml
+  proxy: cc.wr0926.ml
 replaced_urls:
-  - old: example.com
-    new: host.example.com
+  - old: cc.wr0926.ml
+    new: cloud.wr0926.ml
 `
 var Config *Yaml
 var Protocal string
